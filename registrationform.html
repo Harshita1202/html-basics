@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+<h1><form action="https://hidden-ridge-64485.herokuapp.com/registration" target="_blank" method="GET">
+    username:<br>
+    <input type="text" name="username" id="name">
+</br>
+    password:<br>
+    <input type="password" name="pass">
+</br>
+    email:<br>
+    <input type="email" name="email">
+</br>
+    age:<br>
+    <input type="number" name="age"></input>
+</br>
+    <h2>Which is your favorite superhero? </h2>
+    <input type="radio" name="superhero" value="Superman">Superman
+    <input type="radio" name="superhero" value="Batman">Batman
+    <input type="radio" name="superhero" value="Spider Man">Spider Man
+    <input type="radio" name="superhero" value="Iron Man">Iron Man
+   <br>
+       <input type="submit" >
+</br>
+</h1>
+</form>
+<form action="https://hidden-ridge-64485.herokuapp.com/booking" target="_blank" method="POST">
+    <h1>Booking Form</h1>
+  <br>  <select name="movie">
+        <option  value="Avengers">Avengers</option>
+        <option  value="Avengers:Infinity War">Avengers:Infinity War</option>
+        <option  value="Avengers:End Game">Avengers:End Game</option>
+    </select>
+</br>
+   <input type="checkbox" name="addon" value="Popcorn">Popcorn
+   <input type="checkbox" name="addon" value="Beverages">Beverages
+    <input type="checkbox" name="addon" value="Chips">Chips
+    <br><input type="submit"></form></br>
+</form>
+<form action="https://hidden-ridge-64485.herokuapp.com/selfie" target="_blank" method="POST" enctype="multipart/form-data">
+<input type="file"  name="file" value="choose file">
+<input type="submit">
+
+
+</form>
+</body>
+</html>
